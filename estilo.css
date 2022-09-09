@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+li, a{
+    font-family: "Anton", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #435971;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+}
+
+.logo{
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    background-color: white;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a:hover{
+    border-bottom: 2px solid #435971;
+}
+
+.formulario{
+    background-image:url(imagens/slider4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formulario p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+    color: white;
+    font-family: "Lato",sans-serif;
+}
+.formulario_email{
+    margin-top: 10px;
+    display: block;
+    width: 400px;
+    height: 40px;
+    border-style: none;
+
+}
+.formulario_botao{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    display: block;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+     font-family: "Lato",sans-serif;
+    background-color: rgb(197, 22, 22);
+    color:white;
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.sobre{
+
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.sobre_texto{
+    
+    width: 60%;
+    display: block;
+}
+.sobre_texto h1{
+    margin-left: 2.5rem;
+    font-family: "Lato",sans-serif;
+}
+
+.sobre_texto p{
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 30px;
+    font-family: "Lato",sans-serif;
+    font-size: 20px;
+}
+.sobre img{
+    margin-top: 5rem;
+    margin-left: 15%;
+    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+}
+
+
+
+
+.servicos{
+    display:flex;
+    width: 100%;
+    background-color:#435971;
+}
+
+.servicos_titulo h1{
+    display: block;
+    font-family: "Lato",sans-serif;
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.servicos_espec{
+    
+    display: grid;
+    grid-template: 30% / 30% auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color:#435971;
+}
+
+.servicos_espec > div{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: white;
+    font-family: "Lato",sans-serif;
+}
+.servicos_espec img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.contato{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.contato_texto{
+    width: 100%;
+    display: block;
+}
+.contato_texto h1{
+    margin-left: 2.5rem;
+    font-family: "Lato",sans-serif;
+}
+.contato_texto ul{ 
+    margin-top: 20px;
+}
+
+.contato_texto li a{ 
+    color: blue;
+    margin-left: 2.5rem;
+    font-family: "Lato",sans-serif;
+    font-size: 25px;
+    
+}
+.contato_texto a:hover{ 
+   opacity: 0.5;
+    
+}
+
