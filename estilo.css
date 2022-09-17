@@ -67,6 +67,10 @@ header{
     width: 400px;
     height: 40px;
     border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    outline: transparent;
 
 }
 .formulario_botao{
@@ -145,7 +149,7 @@ header{
     background-color:#435971;
 }
 
-.servicos_espec > div{
+.servicos_espec div{
     text-align: center;
     padding: 20px 0px;
     font-size: 20px;
