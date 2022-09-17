@@ -179,6 +179,9 @@ header{
 .contato img{
     opacity: 0.8;
 }
+.contato img:hover{
+    opacity: 1;
+}
 
 
 .contato li {
