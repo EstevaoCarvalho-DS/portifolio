@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato&family=Patua+One&display=swap');
 
 *{
     margin: 0;
@@ -9,7 +10,7 @@
 }
 
 li, a{
-    font-family: "Anton", sans-serif;
+    font-family: 'Patua One', cursive;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
