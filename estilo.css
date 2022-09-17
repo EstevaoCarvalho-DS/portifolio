@@ -161,33 +161,42 @@ header{
 }
 
 .contato{
+    width: 100%;
     display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 10px 5%;
     margin-top: 30px;
-    width: 100%;
-
+    margin-bottom: 30px;
 }
 
-.contato_texto{
-    width: 100%;
-    display: block;
-}
-.contato_texto h1{
-    margin-left: 2.5rem;
+.contato p{
+    color: gray;
+    padding-left: 10px;
     font-family: "Lato",sans-serif;
+    font-size: 14px;
 }
-.contato_texto ul{ 
-    margin-top: 20px;
+.contato img{
+    opacity: 0.8;
 }
 
-.contato_texto li a{ 
-    color: blue;
-    margin-left: 2.5rem;
-    font-family: "Lato",sans-serif;
-    font-size: 25px;
-    
+.contato ul{
+    margin-left: 30px;
 }
-.contato_texto a:hover{ 
-   opacity: 0.5;
-    
+.contato li {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+.contato li a{
+    font-size: 14px;
+    font-family: "Lato",sans-serif;
+    color: rgb(93, 93, 252);
+
+}
+
+.contato li a:hover{
+    border-bottom: 0.5px solid rgb(93, 93, 252);
 }
 
