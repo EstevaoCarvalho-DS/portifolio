@@ -160,6 +160,18 @@ header{
     height: 50px;
     border-radius: 100%;
 }
+#servicos_id_titulo{
+    font-family: "Lato",sans-serif;
+    display: inline-block;
+    max-width: 55%;
+    min-width: 50%;
+    background-color: white;
+    font-size: 22px;
+    list-style: none;
+    border-radius: 14px;
+}
+
+
 
 .contato{
     width: 100%;
